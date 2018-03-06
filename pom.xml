@@ -18,6 +18,7 @@
         <module>common</module>
         <module>test</module>
         <module>learn</module>
+        <module>howto-graphql-java</module>
     </modules>
     <packaging>pom</packaging>
 
