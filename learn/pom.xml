@@ -17,20 +17,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.reactivex.rxjava2</groupId>
-            <artifactId>rxjava</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.reactivestreams</groupId>
-            <artifactId>reactive-streams</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.reactivestreams</groupId>
-            <artifactId>reactive-streams-tck</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>${spring.version}</version>
@@ -117,25 +103,7 @@
             <version>23.6-jre</version>
         </dependency>
 
-        <!--reactive stream, rxjava-->
-        <dependency>
-            <groupId>io.reactivex.rxjava2</groupId>
-            <artifactId>rxjava</artifactId>
-            <version>2.1.8</version>
-        </dependency>
-        <dependency>
-            <groupId>org.reactivestreams</groupId>
-            <artifactId>reactive-streams</artifactId>
-            <version>1.0.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.reactivestreams</groupId>
-            <artifactId>reactive-streams-tck</artifactId>
-            <version>1.0.2</version>
-            <scope>test</scope>
-        </dependency>
-
-
+        <!--graphql-->
         <dependency>
             <groupId>com.taobao.xgraphql</groupId>
             <artifactId>xgraphql-core</artifactId>
@@ -174,6 +142,12 @@
             <version>3.4.0</version>
         </dependency>
         <!--xerces-api, xercesimpl-->
+
+        <dependency>
+            <groupId>io.vavr</groupId>
+            <artifactId>vavr</artifactId>
+            <version>0.9.0</version>
+        </dependency>
 
     </dependencies>
 

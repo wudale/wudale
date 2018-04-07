@@ -19,6 +19,8 @@
         <module>test</module>
         <module>learn</module>
         <module>howto-graphql-java</module>
+        <module>howto-springboot</module>
+        <module>howto-RxJava</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -35,8 +37,11 @@
                 <artifactId>wudale-test</artifactId>
                 <version>${project.version}</version>
             </dependency>
+        </dependencies>
+    </dependencyManagement>
 
-            <!--log slf4j logback-->
+    <dependencies>
+         <!--log slf4j logback-->
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
@@ -47,8 +52,7 @@
                 <artifactId>logback-classic</artifactId>
                 <version>1.1.7</version>
             </dependency>
-        </dependencies>
-    </dependencyManagement>
+    </dependencies>
 
     <build>
         <plugins>
